@@ -13,7 +13,7 @@ import javax.crypto.NoSuchPaddingException;
 import javax.crypto.SecretKey;
 
 public class Main {
-    private KeyPair key = null;
+    private static KeyPair key = null;
    
     public static void main(String[] args) 
     {
